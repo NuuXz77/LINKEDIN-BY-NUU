@@ -1,0 +1,403 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins",sans-serif;
+}
+
+body{
+    width: 100%;
+    position: relative;
+}
+
+.nav{
+    justify-content: space-between;
+    display: flex;
+    width: auto;
+    height: 20px;
+    background-color: #fff;
+    box-shadow: 1px 1px 5px rgba(76,76,76);
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+.logo{
+    position: inherit;
+    display: inline-flex;
+    align-items: center;
+    margin-left: 70px;
+    width: auto;
+}
+
+.searbro svg{
+    position: absolute;
+    padding: 10px;
+    margin-left: 10px;
+    display: inline;
+}
+
+.searbro input{
+    margin-left: 10px;
+    height: 40px;
+    padding: 0px 0px 0px 35px;
+    background-color: #f4faff;
+    border: none;
+    border-radius: 0.2rem;
+    width: 200px;
+    transition: width 0.3s ease-in-out;
+    outline: none;
+}
+
+.searbro input:focus{
+    width: 300px;
+    outline: 3px #000000 solid;
+}
+
+.menu{
+    position: relative;
+    display: flex;
+    width: auto;
+    margin-left: 6rem;
+    position: relative;
+    left: 0;
+    z-index: 1000;
+}
+
+.menu .link{
+    position: relative;
+    display: flex;
+    width: auto;
+    flex-direction: column;
+    align-items: center;
+    margin: 1.3rem;
+    color: rgb(107, 107, 107);
+    z-index: 1;
+}
+
+.menu .link a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: rgb(107, 107, 107);
+}
+
+
+.menu .link:hover{
+    color: #000000;
+}
+.menu a:hover, .link:hover{
+    color: #000000;
+}
+
+
+
+.pageAtas{
+    display: inline-flex;
+}
+
+.pageKanan{
+    position: inherit;
+    width: 66%;
+    height: 659px;
+    margin-left: 7%;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px rgb(76, 76, 76);
+    margin-top: 2%;
+    /* margin-left: 90px; */
+}
+
+.wpp{
+    position: relative;
+    /* background-color: rgb(209, 209, 209); */
+    background-image: url('wpp.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 230px;
+    margin-bottom: 80px;
+    width: auto;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+}
+
+.wpp svg{
+    float: right;
+    align-items: center;
+    margin: 1rem;
+    color: #3FA2F6;
+    background-color: #fff;
+    padding: 13px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px 0px rgba(76,76,76);   
+}
+
+.wpp svg:hover{
+    background-color: #dfdfdf;
+}
+
+.pp img{
+    position: relative;
+    top: 65px;
+    width: 200px;
+    margin-bottom: 30px;
+    margin-left: 40px;
+    border-radius: 50%;
+    border: 3px solid #fff ;
+    padding: 10px;
+    background-color: rgb(236, 233, 233);
+}
+
+.pencil{
+    position: inherit;
+    float: right;
+    bottom: 2.6rem;
+    padding: 10px;
+}
+
+.pencil svg{
+    background-color: transparent;
+    border-radius: 50%;
+    border: transparent;
+    width: 30px;
+    height: 30px;
+}
+
+.pencil svg:hover{
+    background-color: #e1e1e1;
+}
+
+.profil{
+    width: auto;
+    margin: 40px;
+    position: relative;
+}
+
+.judul{
+    display: flex;
+    align-items: center;
+}
+
+.judul h3{
+    font-size: 28px;
+    margin-right: 10px;
+}
+
+.verif{
+    display: flex;
+    align-items: center;
+    margin: 4px;
+    border: 2px dashed #3FA2F6;
+    border-radius: 1rem;
+    padding: 5px;
+    color: #3FA2F6;
+    transition: all 0.2s ease-in-out;
+}
+
+.verif:hover{
+    background-color: #dedede;
+    cursor: pointer;
+}
+
+.desk p{
+    top: 2px;
+    font-size: 15px;
+    width: auto;
+}
+
+.alamat p,a{
+    font-size: 13px;
+}
+
+.alamat p{
+    width: auto;
+    color: #b2b2b2;
+}
+
+.alamat a{
+    color: #3FA2F6;
+    text-decoration: none;
+}
+
+.alamat a:hover{
+    text-decoration: underline;
+}
+
+.koneksi p{
+    color: #3FA2F6;
+    font-size: 12px;
+}
+
+.allButton{
+    width: auto;
+    height: auto;
+}
+
+.allButton button{
+    width: auto;
+    background-color: #fff;
+    margin:7px;
+    color: #3FA2F6;
+    border-radius: 1rem;
+    border: #3FA2F6 solid;
+    padding: 5px;
+    margin-bottom: 20px;
+    margin-left: 0;
+    transition: all 0.2s ease-in-out;
+}
+
+.allButton #bukain{
+    width: 150px;
+    background-color: #3FA2F6;
+    border: #3FA2F6 solid;
+    color: #fff;
+}
+
+.allButton #bukain:hover{
+    background-color: #005aa9;
+    border: #005aa9 solid;
+}
+
+.allButton #lainnya{
+    width: 100px;
+    color: #000000;
+    border: #000000 solid;
+}
+
+.allButton #lainnya:hover{
+    background-color: #d6d6d6;
+}
+
+.allButton button:hover{
+    background-color: #e4feff;
+    border: #000000 solid;
+}
+
+.pageKiri{
+    height: auto;
+    width: auto;
+    margin: 2%;
+    margin-top: 2%;
+}
+
+.pageKiri h3{
+    color: #3e3e3e;
+}
+
+.atasProfil{
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px rgb(76, 76, 76);
+    padding: 1.5rem;
+    font-size: 0.8rem;
+}
+
+.atasProfil p{
+    margin-bottom: 1rem;
+    color: #8a8a8a;
+}
+
+.bahasa{
+    display: flex;
+    justify-content: space-between;
+}
+
+.bahasa h3{
+    margin-bottom: 3px;
+}
+
+.bahasa svg:hover{
+    cursor: pointer;
+}
+
+.public{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+
+.public h3{
+    margin-bottom: 3px;
+}
+
+.public svg:hover{
+    cursor: pointer;
+}
+
+.bawahProfil{
+    margin-top: 2%;
+    border-radius: 0.5rem;
+    box-shadow: 1px 1px 15px rgb(76, 76, 76);
+    padding: 1.5rem;
+}
+
+.bawahProfil h4{
+    /* margin-bottom: 20px; */
+
+}
+
+.bawahProfil img{
+    border-radius: 50%;
+    width: 3rem;
+}
+
+.bawahProfil a{
+    position: relative;
+}
+
+.orang{
+    width: auto;
+    height: auto;
+    margin-top: 0.3rem;
+}
+
+.name{
+    position: relative;
+    margin-left: 3.4rem;
+    top: -58px;
+}
+
+.name a{
+    position: relative;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #202020;
+}
+
+.name a:hover{
+    color: #3FA2F6;
+    text-decoration: underline;
+}
+
+.name li{
+    font-size: 0.8rem;
+    color: #8a8a8a;
+}
+
+.name p{
+    font-size: 0.9rem;
+    color: #242424;
+}
+
+.name button{
+    position: inherit;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0.7rem;
+    background-color: transparent;
+    border: 2px solid #616161;
+    border-radius: 1.4rem;
+    padding: 0.3rem;
+    transition: all 0.2s ease-in-out;
+
+}
+
+.name button:hover{
+    border: 2px solid #000;
+    background-color: #b1b1b1;
+}
+
+#tmp{
+    margin-top: 10px;
+    text-align: center;
+}
